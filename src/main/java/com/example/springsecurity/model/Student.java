@@ -1,6 +1,7 @@
 package com.example.springsecurity.model;
 
 
+
 public class Student {
     private int rno;
     private String name;

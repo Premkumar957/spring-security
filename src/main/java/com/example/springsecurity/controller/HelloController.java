@@ -28,4 +28,9 @@ public class HelloController {
         return "Become the programmer you are meant to be!";
     }
 
+    @GetMapping("/public/demo")
+    public String demo() {
+        return "Public Page Demo Code";
+    }
+
 }
